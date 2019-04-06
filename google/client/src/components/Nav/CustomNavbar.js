@@ -15,7 +15,6 @@ export default class CustomNavbar extends Component {
             <Nav.Link eventKey="link-1">Saved</Nav.Link>
           </Nav.Item>
         </Nav>
-        
       </div>
     );
   }

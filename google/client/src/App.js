@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Search from './components/Search/Search';
 import CustomNavbar from './components/Nav/CustomNavbar';
+import BookSearch from './components/BookSearch/BookSearch'
 
 
 class App extends Component {
@@ -11,7 +12,8 @@ class App extends Component {
    <Router>
      <div>
      <CustomNavbar />
-       <Route exact path="/" component={Search} />
+       <Route exact path="/" component={Search} /> 
+      <BookSearch />
      </div>
    </Router>
     );
